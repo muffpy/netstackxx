@@ -1,5 +1,9 @@
 netstackxx is an implementation of a significant portion of the Linux networking stack in C++ including: IP routing, a network interface, and the TCP protocol.
 
+It uses Keith Winstein's ([@keithw](https://github.com/keithw)) minnow [utils](https://github.com/CS144/minnow/tree/main/util) which wrap Linux operating system functions in modern C++ interfaces.
+
+I started this as a side-project in 2021 while learning networking systems and am in the process of migrating the code and docs to GitHub.
+
 > _What, you can’t learn TCP? Then write your own!_
 > _— anonymous Zhihu user_
 
@@ -40,3 +44,7 @@ To run speed benchmarks: `cmake --build build --target speed`
 To run clang-tidy (which suggests improvements): `cmake --build build --target tidy`
 
 To format code: `cmake --build build --target format`
+
+<!-- ## Components
+
+### Reassembler -->
