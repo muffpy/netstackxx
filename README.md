@@ -1,7 +1,7 @@
 netstackxx is an implementation of a significant portion of the Linux networking stack in C++ including: IP routing, a network interface, and the TCP protocol.
 
 > _What, you can’t learn TCP? Then write your own!_
-> _— a Zhihu blog_
+> _— anonymous Zhihu user_
 
 ## Environment
 
