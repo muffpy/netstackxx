@@ -1,5 +1,34 @@
 netstackxx is an implementation of a significant portion of the Linux networking stack in C++ including: IP routing, a network interface, and the TCP protocol.
 
+> _What, you can’t learn TCP? Then write your own!_
+> _— a Zhihu blog_
+
+## Environment
+
+netstackxx requires a GNU/Linux operating system and a recent C++ compiler
+that supports the C++ 2020 standard.
+
+If you are on macOS or Windows and already have Docker Desktop installed, then you already have Linux installed in the form of a [LinuxKit VM](https://github.com/linuxkit/linuxkit/blob/master/docs/platform-virtualization-framework.md) without the overhead of a full virtual machine like VMware Workstation, VMware Fusion, or VirtualBox.
+
+On your Linux box:
+```
+sudo apt update && sudo apt install 
+git  \
+cmake \
+gdb \
+build-essential \
+clang \
+clang-tidy \
+clang-format \
+gcc-doc \
+pkg-config \
+glibc-doc \
+tcpdump \
+tshark
+```
+
+## Build
+
 To set up the build system: `cmake -S . -B build`
 
 To compile: `cmake --build build`
