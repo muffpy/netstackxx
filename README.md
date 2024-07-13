@@ -2,15 +2,14 @@ netstackxx is an implementation of a significant portion of the Linux networking
 
 It uses Keith Winstein's ([@keithw](https://github.com/keithw)) minnow [utils](https://github.com/CS144/minnow/tree/main/util) which wrap Linux operating system functions in modern C++ interfaces.
 
-I started this as a side-project in 2021 while learning networking systems and am in the process of migrating the code and docs to GitHub.
+I created netstackxx as a side-project in 2021 while learning networking systems at university and am in the process of migrating the code and docs to GitHub.
 
 > _What, you can’t learn TCP? Then write your own!_
 > _— anonymous Zhihu user_
 
 ## Environment
 
-netstackxx requires a GNU/Linux operating system and a recent C++ compiler
-that supports the C++ 2020 standard.
+netstackxx requires a GNU/Linux operating system and a recent C++ compiler that supports the C++ 2020 standard.
 
 If you are on macOS or Windows and already have Docker Desktop installed, then you already have Linux installed in the form of a [LinuxKit VM](https://github.com/linuxkit/linuxkit/blob/master/docs/platform-virtualization-framework.md) without the overhead of a full virtual machine like VMware Workstation, VMware Fusion, or VirtualBox.
 
